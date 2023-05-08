@@ -7,6 +7,16 @@
     --hero-background-color : #2F303A;
 }
 
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -20,9 +30,35 @@ a{
     text-decoration: none;
 }
 
-ul{
+ul,
+p,
+h1,
+h2,
+h3,
+li{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+/* Загальні стилі */
+
+.section{
+    /* outline: solid 2px green; */
+
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container{
+    /* outline: solid 2px red; */
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* header */
 .logo{
@@ -176,3 +212,4 @@ address{
 
     color: var(--secondary-text-color);
 }
+
