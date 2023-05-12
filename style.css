@@ -51,7 +51,7 @@ li{
 }
 
 .container{
-    /* outline: solid 2px red; */
+    outline: solid 3px red;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -61,6 +61,15 @@ li{
 
 
 /* header */
+
+.header{
+    display: flex;
+}
+.header nav{
+    outline: solid 1px red;
+    display: flex;
+}
+
 .logo{
 
     font-family: 'Raleway', sans-serif;
@@ -73,6 +82,17 @@ li{
 
 .logo > span{
     color: var(--logo-color);
+}
+
+.nav-list{
+    display: flex;
+    margin-left: 93px;
+}
+
+.contacts-list{
+    outline: solid 1px red;
+    display: flex;
+    margin-left: auto;
 }
 
 .nav-link,
@@ -126,6 +146,8 @@ h1{
     background-color: var(--accent-color);
 }
 
+/* Переваги */
+
 .advantages-h3{
     font-weight: 700;
     font-size: 14px;
@@ -141,6 +163,16 @@ h1{
     line-height: 24px;
 
     color: var(--secondary-text-color);
+}
+
+/* Чим ми займаємось */
+
+.what-we-do{
+    display: flex;
+}
+
+.what-we-do img{
+    width: 270px;
 }
 
 .about-us{
@@ -169,6 +201,8 @@ h1{
 
     color: var(--secondary-text-color);
     }
+
+    /* Футер */
 
 .footer{
     background-color: var(--hero-background-color);
