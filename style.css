@@ -113,7 +113,7 @@ li{
     margin-left: 50px;
 } */
 
-.contacts-list{
+.header .contacts-list{
     /* outline: solid 1px red; */
     display: flex;
     margin-left: auto;
@@ -232,6 +232,8 @@ h1{
     line-height: 42px;
     text-align: center;
 
+    margin-bottom: 50px;
+
     color: var(--primary-text-color);
 }
 
@@ -246,6 +248,20 @@ h1{
 
 /* Наша команда */
 
+.our-team-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team-item{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.img-our-team{
+    width: 270px;
+    padding-bottom: 30px;
+}
 
 
 .name{
@@ -253,6 +269,8 @@ h1{
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+
+    padding-bottom: 10px;
 
     color: var(--primary-text-color);
 }
@@ -262,6 +280,8 @@ h1{
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+
+    padding-bottom: 30px;
 
     color: var(--secondary-text-color);
     }
